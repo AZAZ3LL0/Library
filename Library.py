@@ -121,12 +121,12 @@ class BookManager(AbstractManager):
         self.dbh.handle_request(sql, values, RequestCodes.POST)
 
 
-# um = UserManager("library", "localhost", "postgres", "letu4i_1wsv9_tsv9", "5432")
+# um = UserManager("library", "localhost", "postgres", "password", "5432")
 # user = um.read_user(1)
 # print(*user)
 # user = um.update_user(1,'anoxin','HUILA.com','228_228_228')
 # um.delete_user(2)
 # um.create_user('Samat', 'ssi.com', 123456789)
-# bk = BookManager("library", "localhost", "postgres", "letu4i_1wsv9_tsv9", "5432")
+# bk = BookManager("library", "localhost", "postgres", "password", "5432")
 # bk.create_book('Маша и Медведь', 'Пшкин', 1920, 3)
 # bk.take_book(3, 5, datetime.datetime.now())
